@@ -1,0 +1,1252 @@
+@media (min-width:768px) {
+/*.main-menu:hover .cw-main-menu{opacity:1; visibility:visible; top:52px;transition:0.3s all; -webkit-transition:0.3s all;-moz-transition:0.3s all;-ms-transition:0.3s all;-o-transition:0.3s all;}
+.cw-main-menu {height: 0;min-height: 0;overflow: hidden;padding: 0;transition:0.3s all; -webkit-transition:0.3s all;-moz-transition:0.3s all;-ms-transition:0.3s all;-o-transition:0.3s all;}
+.cw-main-menu.menu-add{min-height: 170px;overflow: visible; padding: 10px 0;transition:0.3s all; -webkit-transition:0.3s all;-moz-transition:0.3s all;-ms-transition:0.3s all;-o-transition:0.3s all; height:auto;}
+*/
+.cw-main-menu, .fp-profile-pic, .cw-provider-res-panel, .profile-pic-form{ display:none;}
+.cw-provider-home-res-left, .inner-form > span.res-title {display:none;}
+.main-title  span.res-title{ pointer-events:none;}
+}
+
+@media (max-width:1109px) {
+button.login, input[type="submit"]{-moz-appearance:none; -webkit-appearance:none; -o-appearance:none; -ms-appearance:none;}	
+.wrapper{ width:100%; float:left; padding:0 10px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -ms-box-sizing:border-box;}
+.form-group{ display:block;}
+.header-search {margin-left: 35px;}
+
+/*landing home-page css */
+.fund-seeker, .fund-provider, .service-provider{ margin:0; width:200px; height:200px; border-radius:50%; background-size:65px auto;}
+.fund-provider{ background-size:35px auto !important;}
+.cw-fs, .cw-sp {margin-left: 0;}
+.cw-fp{ margin:0 5%;}
+.cw-fs, .cw-fp, .cw-sp{ margin-bottom:20px; width:200px;}
+.provider small{ width:100% !important; font-size:15px; opacity:1; top:15px;}
+.service-provider{ top:22px;}
+.cw-sp small {top: 35px !important;}
+.fund-provider:hover, .service-provider:hover, .fund-seeker:hover{ transform:scale(1);}
+.fund-provider b, .fund-seeker b, .service-provider b{ font-size:17px;}
+.about-us h2{ font-size:26px;}
+address, .add > span, .add > a, .about-us > p{ line-height:20px;}
+.footer-bottom{ margin-top:25px;}
+
+/*reg page*/
+.social-login > li{ width:125px;}
+.login-common > li { width:145px !important;}
+
+.login-gplus{ background-position: 10px center;}
+.login-fb{ background-position: 10px center;}
+.login-linkedin{background-position: center center;}
+
+.login-common .login-linkedin {background-position: 19px center;display: block;}
+.login-common .login-gplus {background-position: 26px center;display: block;}
+.login-common .login-fb {background-position: 20px center;display: block;}
+
+#reg-form .social-login{ text-align:center;}
+#reg-form .social-login > li {width: 116px; float:none; display:inline-block;}
+#reg-form .social-login > li .login-fb{ width:20%;}
+#reg-form .social-login > li .login-gplus, #reg-form .social-login > li .login-linkedin{ width:24%;}
+
+/*fund seeker profile dashboard */
+.cw-desc:last-child {margin-bottom: 3%;}
+
+.profile-listing > li{ margin-right:12px;}
+.cw-prof-cont{ width:68%;}
+.cw-profile-right {float: right;margin: 0;width: 30%;}
+
+.profile-pic{ width:95px;margin-right: 18px; height:95px;}
+
+.profile-left{ width:70%;}
+.profile-desc{ width:40%;}
+
+.designation{ font-size:14px;}
+.profile-address{ font-size:11px;}
+.rating:not(:checked) > label{ padding-left:0;}
+strong.choice{ margin-left:4px; margin-top:1px; font-size:12px;}
+.btn-profile{ margin-left:1px;}
+
+.profile-right{ width:35%;}
+.cw-connect-desc {width: 300px;}
+.cw-connect-right {width: 35%; padding-right: 0; height:130px;}
+.cw-connect-right .video-connect {padding: 0 0 0 15px; width: 100%;}
+.cw-connect-right .video-connect h4 { display:block !important;}
+
+.cw-fund-title{margin-top:13px; font-size: 15px; width:72%; padding-left:10px;}
+.cw-fund-title > span{ font-size:12px;}
+.news-desc {font-size: 12px;margin-bottom: 3px;margin-top: 5px;}
+.news-title a{ font-size:12px;}
+
+.cw-matches{ margin-top:0px;}
+.cw-matches > li {margin-bottom: 3%;margin-right: 3%;width: 48.5%;}
+.cw-matches-find{ width:100%;}
+.margin-adj{ padding-top:3%;}
+.cw-matches-profile{ width:35%;}
+.cw-matches-desc{ width:58%;}
+.cw-matches-desc > h5, .cw-desig, .cw-address{ font-size:12px;}
+.cw-desig {float: left;font-size: 12px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;}
+.btn-req{ font-size:11px; white-space:nowrap;}
+.cw-profile-area{ margin:28px 0;}
+
+.cw-connect-desc .prof-ratings {margin-bottom: 10px;margin-top: 10px;}
+.cw-connect-desc .connect-btn a {margin-top: 0;}
+
+.prof-ratings{ margin:10px 0;}
+/*end fund seeker profile dashboard */
+
+/*blog listing page */
+#portfoliolist .portfolio{ width:31%; margin-right:2% !important;}
+#portfoliolist .portfolio:nth-child(3n){ margin-right:0;} 
+/*end blog listing page*/
+
+/*career css */
+.cw-career-form{ padding:20px; width:459px;}
+.cw-contact-details .cw-career-form {padding: 20px;width: 49%;}
+.cw-addressess > li{ padding:17px 0;}
+
+/*start team page */
+.team-title > h4, .team-title > span, .team-list p, .co-team-title, .corporate-team-list p{ text-align:left;}
+.team-list > li {width: 236px;}
+/*end team page */
+
+/* start corporate-team page */
+.corporate-team-list > li {margin-bottom: 37px;margin-right: 37px;width: 310px;}
+.co-image{ height:299px;}
+/*end corporate-team page */
+
+/*tutorial-listing-page */
+.cw-tut-list > li{ width:31.5%;}
+.cw-tut-list > li:nth-child(3n) {margin-right: 0px;}
+.cw-tut-list > li:nth-child(4n) {margin-right: 26px;}
+/*end tutorial-listing-page */
+
+/* start about us page */
+.cw-tab {padding: 30px 0 0;}
+
+.tab-show > img {right: 30px;}
+.cw-who-desc {margin-left: 552px;}
+.cw-who > img{ width:520px;}
+.cw-who-desc h3{ font-size:18px;}
+
+.cw-why-listing {margin-right: 1%; width: 62%;}
+.cw-why-listing > li {margin-bottom: 30px;margin-right: 3%;width: 48%;}
+
+.about-us-img > h4{ left:22px;}
+
+/*end about us page */
+
+/*start send video req profile page */
+.tb-name {width: calc(100% - 67px);}
+/*end send video req profile page */
+
+/*fund seeker profile home page */
+.common-d3::after{ width:35%;}
+.common-d3{ margin-right:0;}
+.cw-matches-desc > span.km{ float:left;}
+
+.loan-tab .tab-loans li, #tab-listing .loan-tab .tab-loans li,  #tab-listing-corporate .loan-tab .tab-loans li{ width:32%; margin-right:2%;}
+.loan-tab .tab-loans li:nth-child(3n), #tab-listing .loan-tab .tab-loans li:nth-child(3n), #tab-listing-corporate .loan-tab .tab-loans li:nth-child(3n){  margin-right: 0;}
+.loan-tab .tab-loans li:nth-child(4n), #tab-listing .loan-tab .tab-loans li:nth-child(4n), #tab-listing-corporate .loan-tab .tab-loans li:nth-child(4n){ margin-right: 2%;}
+
+/*apply for listing page */
+.inner-application {float: left;width: 80%;}
+.inner-content > img{ margin-left:0;}
+
+/*one form page  */
+.inner-input > li {float: left;margin-bottom: 8px;margin-right:2%; width: 32%;}
+.form-details{ padding-bottom:12px;}
+
+.width50 li {margin-right: 0;width: 50%;}
+.margin50 .nomargin > li {margin-right: 30px !important; width:233px;}
+
+.tabel-checkbox {right: 3px;top: 3px;}
+
+.inner-content{ width:calc(100% - 286px);padding:0 25px;}
+.contact-input > li {margin-right: 4%;width: 48%;}
+
+/*profile tutorials */
+.profile-tutorials .cw-tut-list > li {margin-right: 4%;width: 48%; margin-bottom:4%;}
+.profile-tutorials .cw-tut-list > li:nth-child(2n){ margin-right:0;}
+.profile-tutorials .cw-tut-list > li:nth-child(2n + 1){ margin-right:4% !important;}
+.profile-tutorials .cw-tut-list > li:nth-child(4n){ margin-right:0;}
+.profile-tutorials .cw-tut-list > li:nth-child(3n){ margin-right:0;}
+
+/*concept page */
+.concept-listing > li{width:31%; margin-right:4.7%;}
+.concept-listing > li:nth-child(3n) {background-image: none;margin-right: 0;padding-right: 0;width: 233px;}
+.concept-listing > li:nth-child(4n) {background: rgba(0, 0, 0, 0) url("../images/concept-dot.svg") no-repeat scroll right center;float: left; margin-right: 6.7%; padding: 50px 50px 8px 0;text-align: center;width: 31%;}
+.concept-listing > li:last-child{ background-image:none;}  
+/*end concept page */
+
+/*start all activities page */
+.cw-all-notification .rgt {width: 60%;}
+.cw-profile-match .cw-profile-pad.no-gutter {width: 100%; margin-left:0;}
+/*end all activities page */
+
+/*profile matches */
+.profile-desc.cw-connect-desc.no-border-right {width: 40%;}
+
+/*fund provider page css */
+.cw-provider-left {width: 68%;}
+.cw-provider-right {float: right;margin-left: 0;width: 30%;}
+.cw-provider-right .latest-img > img {float: left;width: 100%;}
+
+/* start fund provider video request */
+.cancel-video-req .btn-anchors {width: 70%;}
+.cancel-video-req .video-req{ margin-bottom:8px; }
+/*end fund provider video request */
+
+/* fund provider home page */
+.provider-home-left{ width:22%; margin-right:16px;}
+.cw-provider-home-center {width: 45% !important;}
+.cw-provider-home-center .cw-connect-desc {width: calc(100% - 129px);}
+/*end fund provider home page */
+
+/*profile connections page */
+.sky-carousel {  width: 75%;}
+
+/*fund provider account settings pages css */
+.setting-editable .form-group{ width:100%;}
+.setting-editable > input[type="text"], .setting-editable > input[type="password"] {margin-bottom: 10px;width: 100%;}
+.setting-editable .forms-edit {float: left; width: 100%;}
+.editable-btns {float: none;margin: 0 auto;text-align: center;width: auto;}
+.frm-setting-show input[type="text"], .frm-setting-show input[type="email"], .frm-setting-show input[type="password"], .frm-setting-show select{ width:100%;}
+.address .setting-editable .forms-edit, .address .setting-editable select {width: 100%; background-position:98.5% center;}
+.forms-edit .form-group > input[type="radio"] {width: auto;}
+.setting-editable span {line-height: 18px;}
+/*end fund provider account settings page css */
+
+/* one-form upload docs  */
+.cw-upload-docs form {float: left;margin-top: 25px;text-align: center;width: 100%;}
+.cw-docs {display: inline-block;float: none;margin: 15px;}
+.cw-docs > span{ text-align:left;}
+.cw-docs:nth-child(4n) {margin-right:15px;}
+}
+@media (max-width:1023px) {
+
+/*home page*/
+.cw-from{ margin-top:0px;}
+.form-group input[type="text"], .form-group input[type="password"]{ width:150px;}
+.cw-from > span{ display:block;}
+.header-search .form-group input[type="text"]{ width:250px;}
+.profile-listing .dashboard > a {overflow: hidden;text-overflow: ellipsis; white-space: nowrap;width: 90px;}
+
+/*reg page*/
+.cw-reg-form{ float:left; padding:20px;}
+.social-login > li{width:100%; margin-bottom:10px; margin-left:0;}
+
+.login-gplus{ background-position: right center; display:block;}
+.login-fb{ background-position: right center;display:block;}
+.login-linkedin{background-position: right center;display:block;}
+
+.login-common .login-linkedin {background-position: 19px center;display: block;}
+.login-common .login-gplus {background-position: 26px center;display: block;}
+.login-common .login-fb {background-position: 20px center;display: block;}
+
+.reg-left{  background-color: #fefefe;-webkit-box-shadow: inset 0 20px 14px -31px rgba(0,0,0,0.8); -moz-box-shadow: inset 0 20px 14px -31px rgba(0,0,0,0.8); box-shadow: inset 0 20px 14px -31px rgba(0,0,0,0.8);border-right: 1px solid #e9e9e9;}
+.reg-right{  background-color: #fefefe;-webkit-box-shadow: inset 0 20px 14px -31px rgba(0,0,0,0.8); -moz-box-shadow: inset 0 20px 14px -31px rgba(0,0,0,0.8); box-shadow: inset 0 20px 14px -31px rgba(0,0,0,0.8);border-left:none;}
+
+.cw-profile-area{ margin:20px 0;}
+nav.nav-footer {float: left;margin-left: 5%;width: 30%;}
+#reg-form .login-linkedin, #reg-form .login-fb, #reg-form .login-gplus{ width:40% !important;}
+
+#reg-form .social-login > li {width: 100%;}
+
+/*fund seeker profile connect page  */
+.cw-connect-right {width: 35%;}
+.cw-connect-right .notification-btn > li {margin-left: 0;}
+.cw-profile-connect-btn .notify-btn {padding: 5px 10px;width: auto;}
+.cw-connect-desc {width: 40%;}
+
+
+/*profile matches */
+.profile-match .cw-connect-right {margin-top: 25px; height:auto;}
+.profile-match .profile-pic {margin-right: 18px; height:85px; width:85px;}
+.profile-match .prof-ratings { margin:10px 0 0;}
+.cw-connect-right .video-connect {padding: 0 ;}
+/*end fund seeker profile connect page */
+
+
+/*career page reponisve css */
+.common-title{ padding:10px 0 20px;}
+.common-title > p{ line-height:20px;}
+.cw-career-details{ margin:25px 0; width:100%;}
+.career-left {margin-right: 2%;}
+.cw-career-form{ margin-bottom:30px; width:100%; margin-right:0; padding:20px;}
+.career-right {border: medium none;padding: 0;}
+.career-steps > li{ padding-bottom:50px;}
+.login-group > h4{font-size: 14px;margin: 0 0 15px;}
+.btn-submit > input{ width:100%; margin:0 auto; display:table; float:none;}
+
+/*blog listing page */
+#portfoliolist .portfolio{ width:47%; margin-right:0%;}
+#portfoliolist .portfolio:nth-child(2n){ margin-right:0;} 
+#portfoliolist .portfolio:nth-child(3n){ margin-right:0%;} 
+/*end blog listing page*/
+
+/*blog listing page css */
+.white-panel h1 a{ line-height:20px; font-size:14px;}
+/*end blog listing page cs */
+
+/*start team page */
+.team-list > li:nth-child(3n){ margin-left:0 !important; margin-right:0 !important;}
+.team-list > li:nth-child(4n) { margin:0;}
+.team-list > li{margin:0 12px 12px 0 !important; width:32%; float:left;}
+.team-list > li img{ width:100%;}
+
+/*end team page */
+
+/*start corporate page */
+.corporate-team-list{ text-align:center;}
+.corporate-team-list > li {display: inline-block;float: none;}
+.corporate-team-list > li:nth-child(3n) {margin-right:23px;}
+.corporate-team-list > li:nth-child(2n) {margin-right:0;}
+section.content { padding: 10px 0 0; margin:0 0 20px}
+.team-listing{ margin-top:35px;}
+/*end corporate page */
+
+/* start corporate-team page */
+.corporate-team-list > li {margin-bottom: 37px;margin-right: 37px;width: 350px;}
+/*end corporate-team page */
+
+/* start concept page  */
+.concept-listing {display: block;float: left;margin: 0 0 60px;width: 100%;}
+/* end concept page */
+
+/*career page css */
+#career-form .form-control select{ background-position:99% center;}
+/* career page css */
+
+/*tutorial-listing-page */
+.cw-tut-list > li{ width:31%;}
+.cw-tut-list > li:nth-child(3n) {margin-right: 0px;}
+.cw-tut-list > li:nth-child(4n) {margin-right: 26px;}
+/*end tutorial-listing-page */
+
+/* start abous us page */
+.tabbing-inner{ margin-top:22px;}
+.tab-show {padding-bottom: 0; padding-top:20px;}
+.tab-desc {width:360px;}
+i.tab-prof-name {font-size: 22px;margin: 10px 0 40px;}
+.tab-img{ width: calc(100% - 385px);}
+.cw-apply > span{ font-size:16px;}
+.btn-apply{ padding:12px 22px;}
+.cw-who > img {margin-right: 25px;width: 60%; margin-bottom:2px;}
+.cw-who-desc {margin-left: 0;}
+.cw-why-listing {margin-right: 0;width: 100%;}
+.cw-why > img {float: left; display:none !important;}
+.owl-carousel-two{ margin-bottom:0;}
+/* end about us page */
+
+/*start send video req css */
+.cw-table-matches table th, .cw-table-matches table td {padding: 8px;}
+.tb-name{ width:calc(100% - 67px);}
+.cw-table-matches .tb-name{ width:100%;}
+.video-invi {float: left;margin-bottom: 16px !important;width: 95% !important;}
+.video-req {margin: 10px 0;}
+.need-fund-prof{ margin-top:0;}
+.profile-btn.need-fund-prof > span{ font-size:11px;}
+
+.layer-popup-content .form-group input{ width:100% !important;}
+/*end send video req css */
+
+/*fund seeker-profile home page */
+.inner-chart{ padding-bottom:0;}
+.common-d3 {margin-bottom: 15px;margin-right: 0;padding-right: 0;width: 24%;}
+.common-d3::after {left: 95px;width: 34%;}
+.common-d3 > span{ text-align:center;}
+.cw-matches-desc > span.km{ float:left;}
+
+
+/*end fund seeker profile home page */
+
+/*fund seeker apply for page */
+.listing-show .tab-loans ul li .btn-req {float: right;margin-top: 26px;}
+.inner-application {float: left;width: 50%;}
+.inner-application > span{ width:100%; margin-top:4px; border:none;}
+.inner-application > span + span {padding-left: 0;}
+/*end fund seeker apply for page */
+
+/* one form page */
+.inner-menu li a{ padding:15px 20px;}
+
+.margin50 .nomargin > li {margin-right: 30px !important; width:209px;}
+
+.soring-table table {width: 700px;}
+.soring-table {display: block;overflow-y: auto;-webkit-overflow-scrolling: touch;}
+.sorting-right {float: left;margin-top: 7px;width: 100%;}
+.photo-upload .custom-upload > span{ top:22px;}
+/*end one form page */
+
+/*start calendar */
+.bank-sel .fc-toolbar .fc-right {margin-top:0px;}
+.bank-sel .fc button{ padding:0 8px; font-size:12px;}
+.bank-sel .fc-icon-right-single-arrow::after, .bank-sel .fc-icon-left-single-arrow::after{ font-size:12px;}
+/*.bank-sel .calendar-overlay{ top:128px;}*/
+
+.fc-toolbar{ position:relative;}
+.fc-toolbar .fc-left, .fc-toolbar .fc-right {margin-top: 40px;}
+.fc-toolbar .fc-center {display: inline-block;left: 0;margin: 0 auto;position: absolute;top: 20px;width: auto; right:0;}
+.fc-center > h2 {display: block;text-align: center;width: 100%;}
+/* end calendar */
+
+/* loan calculator */
+.tabs, .final-results {padding: 15px 26px;}
+.final-results > li{ padding:0 20px; }
+.main-calculator .tab-loan, .main-calculator .tab-rate, .main-calculator .tab-month{ width:67% !important;}
+/*concept page css */
+.concept-listing > li, .concept-listing > li:nth-child(4n) {margin-right: 46px;}
+.concept-listing > li:nth-child(3n) {width: 192px;}
+
+/*financial partners css*/
+.financial-partners { display: block;overflow-x: auto;}
+.partner-listing {display: block;float: left;width: 100%;}
+.partner-listing > li {text-align: center; border-bottom:none;}
+.partner-listing .finance-partner-logo {border-bottom: 1px solid #e5e5e5;border-right: 1px solid #e5e5e5;width: 33%;}
+.finance-partner-logo:nth-child(3n) {border-right: 0 none;}
+/*.partner-listing > li:last-child .finance-partner-logo:nth-child(4n) + .finance-partner-logo{ border-bottom:none;}
+*/
+
+/*profile matches */
+#filtering .form-group > select{ padding:5px 30px 5px 10px;}
+.profile-inner-title > h4 {width: 100%; line-height:normal;}
+.profile-filter {float: left;margin: 10px 0 0;width: auto; position:static; top:0;}
+
+/*fund provider page css */
+.cw-provider-left {width: 68%;}
+.cw-provider-right {float: right;margin-left: 0;width: 30%;}
+.profile-remarks .form-group input[type="text"]{ width:100%;}
+.sekeer-analysis .profile-filter {float: right;margin: 0;position: static;top: 0;width: auto;}
+
+/* fund provider home page */
+.provider-home-left{ width:22%; margin-right:12px;}
+.profile-home-charts .common-d3::after {display: none; left:89px;}
+/*end fund provider home page */
+
+/*profile connections page */
+.sky-carousel {  width: 66%;}
+
+
+
+}
+@media (max-width:767px) {
+
+body{ background-image:none !important ; background-color:#fff !important;}	
+.cw-from.cw-login-here > span {display: block;font-size: 0;margin-left: 0;margin-right: 12px;margin-top: -11px !important;width: 60px;}
+.cw-from.cw-login-here span small {color: #ababab;display: none;}
+
+.pw-blue {color: #0080cb !important;display: block !important;font-size: 10px !important;}
+
+.login-cw-btn > input{ display: table; float: none !important;  margin: 0 auto;  padding: 10px 16px;  width: 100% !important;}
+.cw-forgot > input[type="submit"] {display: table;float: none;margin: 0 auto !important;width: 100% !important; padding:10px;}
+
+.login-toggle {color: #8a8a8a;display: block;float: left;font-size: 12px;margin-right: 37px;margin-top: 7px; cursor:pointer; padding-right:22px; position:relative;}
+.login-toggle::after {border-left: 1px solid #161618;border-right: 1px solid #303032;content: "";height: 74px;left: 52px;position: absolute;top: -32px;width: 1px;}
+
+.cw-from{ border:none; margin-top:0; margin-right:16px;}
+.right-header .cw-from::before {border-left: 1px solid #161618; border-right: 1px solid #303032;color: #ffffff;content: "";height: 72px;position: absolute;right: 0;top: -18px;width: 0;}
+.cw-from > img {margin-right:4px;margin-top: 10px;width: 30px;}
+.login-toggle{ margin-top:10px; display:none;}
+.cw-from.cw-login-here{ margin-right:24px;}
+.btn-login{ margin-right:5px;}
+.cw-from > span{ display:none;}
+.already-login{position: relative;top: -40px;}
+
+.cw-fs, .cw-fp, .cw-sp{ width:220px;}
+.cw-fp.provider {margin-left: 0;margin-right: 0;}
+.provider a {width: 100%;}
+.fund-seeker, .fund-provider, .service-provider{ float:none; margin:0 auto; display:table;}
+
+.header-search {display: table;float: none;margin: 0 auto;width: auto;}
+.header-search .form-group {background-color: rgba(0, 0, 0, 0);border: medium none;display: block !important;left: 0;padding: 0;position: relative;top: 0;}
+
+.form-group{ display:none;}
+.form-group {background-color: #565656;border-right: medium none;left: 0;padding: 8px 10px;position: absolute; width: 100%;top:71px; z-index:9999;}
+.cw-align img {display: table;float: none;margin: 0 auto;width: 60%;}
+.apph4 h4{ font-size:18px;}
+form {float: left;width: 100%;}
+.form-group input[type="text"],.form-group input[type="password"] {font-size: 11px;margin-right: 2%;padding: 9px 13px;width: 36%; border:1px solid #fff;}
+button.login, .login, .right-header .form-group input[type="submit"] {float:left; width:23%;}
+span.menu-icon{ display:none;}
+.menu-toggle{ display:block; right: 19px;}
+
+.cw-main-menu{ left: 0;opacity: 0;top: 71px;visibility: hidden;transition:0.5s all; -webkit-transition:0.5s all;-moz-transition:0.5s all;-ms-transition:0.5s all;-o-transition:0.5s all;}
+.menu-add{ left: 0;opacity: 1;visibility: visible; }
+.cw-submenu {background-color: #424242;display: none;float: left;height: 0;left: 0;opacity: 1;padding: 0;position: relative;transition: all 0.3s ease 0s;visibility: visible;width: 163px;}
+.menu-sub-add {display: block;float: left;height: auto;left: 0;opacity: 1;position: static;right: 0;visibility: visible;}
+.cw-main-menu li a{ padding:6px 15px;}
+.cw-main-menu li ul li a {padding: 6px 30px;}
+.about-us > a, .cw-career > a{transition:0s all; -webkit-transition:0s all; -moz-transition:0s all; -ms-transition:0s all; -o-transition:0s all;}
+
+.cw-main-menu::before{ display:none;}
+.main-menu{ position:static;}
+.cw-main-menu{ border-radius:0;}
+.cw-main-menu, .cw-submenu{ width:100%; z-index:99999999999;}
+.cw-setting, .cw-notifications{ z-index:99999999;}
+.main-menu:hover .cw-main-menu{opacity:1; visibility:visible; top:71px;transition:0.3s all; -webkit-transition:0.3s all;-moz-transition:0.3s all;-ms-transition:0.3s all;-o-transition:0.3s all;}
+.left-arrows {background: url("../images/up-down.svg") no-repeat scroll right 5px;}
+.left-ar-about {background: url("../images/up-down.svg") no-repeat scroll right -20px;}
+.left-ar-crer {background: url("../images/up-down.svg") no-repeat scroll right -20px;}
+.profile-listing .dashboard > a {width: 100%;}
+
+/*landing home page css*/
+.cw-content{height: auto; margin:50px 0;}
+
+.open-close{ display:none;}
+.footer{ padding-top:0; height:auto; position:static;}
+.footer-open, .footer, .footer-close{ bottom:0;}
+
+.footer-top {float: left; width: 100%;}
+.about-us, .nav-footer, .quick-contact{float: left;width: 100%;}
+address, .add > span, .add > a, .about-us > p{ width:100%;}
+.nav-footer{ display:block;float: left;margin-left: 0 !important;width: 100% !important; margin-bottom:10px;}
+
+.add{ width:43%;}
+.phoneno{ width:25%; margin-left:10px;}
+.email {display: table;float: none;margin: 0 auto;width: auto;}
+
+.landing-cont{ position:relative; z-index:-9;}
+
+/*reg page*/
+.cw-reg-form {display: block;float: left;padding: 20px;width: 100%;}
+.cw-reg-form.reg-left > form {display: block;float: left; width: 100%;}
+.cw-reg .form-group-reg {background-color: rgba(0, 0, 0, 0);border-right: 0 none;display: block;margin-bottom: 17px;padding: 8px 0px;position: static;top: 0;width: 100%;}
+.social-login > li{ width:135px; margin-left:3px;}
+.social-login > li:first-child{ margin-left:0;}
+
+#reg-form .social-login > li{ width:125px;}
+
+#reg-form .login-linkedin, #reg-form .login-fb, #reg-form .login-gplus{ width:24% !important;}
+
+/*.login-linkedin{ background-image:none;}
+.login-gplus{ background-image:none;}
+.login-fb{ background-image:none;}
+*/
+/*.login-common .login-linkedin{ background-image:inherit;}
+.login-common .login-gplus{ background-image:inherit;}
+.login-common .login-fb{ background-image:inherit;}*/
+
+.landing-reg-cont {height: auto;margin-bottom: 0;}
+.reg-title{ padding:20px;}
+.cw-reg-con {background-color: #fefefe;float: left;width: 100%; display:block;}
+.cw-reg{ margin:25px 0; width:100%;}
+.reg-right, .reg-left{ border-left: none; border-right:none;}
+.cw-reg .form-group-reg{ margin-bottom:0;}
+button.login{ padding:8px 17px 8px;}
+
+.cw-align-cont > span{ font-size:16px;}
+.cw-align-cont > small{ font-size:14px;}
+
+/*dashboard css */
+.heightadjust{height: auto;margin: 5px 0;}
+.cw-profile-area {margin: 20px 0;}
+.cw-profile{ border-right:none; margin-right:30px}
+.cw-profile::after {content: "";height: 73px;left: 92px;position: absolute;top: -21px;width: 1px;}
+.profile-name{ display:none;}
+
+.profile-overflow{ /*overflow:hidden;*/ z-index: 999999; background-color: #e5e9ec;}
+.heightadjust {margin: 0 !important;}
+.cw-profile-area {margin: 0;}
+.cw-profile-left{ margin-left:0px;padding-left: 0px; width: 100%}
+.demo {background-color: #726e6c;border-radius: 0;margin-left: -3%;width: 111%;}
+.cw-profile-content{background: url(../images/profile-bg.png) repeat center center;border-radius: 0;margin-left: -10px;width: calc(100% + 20px); background-size:cover; -webkit-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -o-background-size:cover;}
+
+.profile-desc {width: 100%; border-right:none;}
+.profile-desc > h4 {color: #ffffff;font-size: 16px; margin-top:0;}
+.designation, .profile-address{ color:#fff; margin-top:2px;}
+.btn-profile {background-color: #ffffff;border-color: #ffffff;color: #4d4d4d;margin-left: 1px; margin-top:0;}
+.btn-profile:hover {background-color: #e5e5e5; border-color:#e5e5e5; color:#4d4d4d;} 
+.prof-ratings{ margin:13px 0;}
+.cw-connect-desc .prof-ratings {margin-top: 10px;}
+.profile-btn {margin: 0 0 13px 0;width: 100%;}
+
+.profile-right {background-color: #ffffff;height: 125px;width: calc(100% - 125px); float:left; border-radius:0;}
+.profile-right > h4{ margin-top:25px;}
+.profile-pic {height: 125px;margin-right: 0;width: 125px;}
+.profile-right #jk{ display:none;}
+
+.cw-profile-pad.no-gutter {margin-left: 0;width: 100%;}
+.cw-about{ display:none;}
+.cw-matches-profile {width: 92px; height:92px;}
+.cw-profile-pad{ margin-bottom:11px; padding:10px;}
+.cw-matches-desc {float: right;width: calc(100% - 102px);}
+.margin-adj {padding: 10px 10px 0;}
+.cw-desig {float: left;font-size: 12px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;}
+
+.cw-matches > li{ margin-bottom:10px; width:49%; margin-right:0;}
+.cw-matches > li:nth-child(2n){ margin-left:2%;}
+.cw-matches-find{ padding:10px;}
+.cw-matches-desc > h5 > a {color: #4b4b4b;float: left;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;}
+.cw-address {overflow: hidden; text-overflow: ellipsis;white-space: nowrap;width: 100%;}
+
+.btn-req{ margin-top:9px; padding:7px;}
+.cw-profile-right {float: right;margin: 11px 0 0;width: 100%;}
+.cw-latest-news{ width:47%;}
+.latest-img > img {float: left; width: 100%;}
+.cw-latest-news.cw-tracking-details {float: right;}
+
+
+.profile-menu {background: #3b3b3b url("../images/down-arrow-one.svg") no-repeat scroll center center;float: left;height: 40px;width: 100%;}
+.profile-listing > li {margin-right: 0;width: 100%;}
+.profile-listing li a{ width:100%; text-align:center; border:none; padding:8px;}
+.profile-listing > li:first-child{ margin:0;}
+.profile-listing{ display:none;}
+.btn-logout {background-color: #0080cb !important;border: 1px solid #0080cb !important;color: #ffffff !important;}
+.cw-setting::before{ right:34px;}
+.designation > br {display: none;}
+
+/*new changes in fund seeker profile page */
+
+.inner-chart{ width:100%; background-color:#fff; padding-bottom:10px; margin-left:0;}
+.inner-update {display: table;float: none;margin: 0 auto;}
+.common-d3::after {display:none;}
+.d3-graphs {margin-bottom: 0;width: 100%;}
+
+
+.dashboard {display: table; float: none !important;margin: 0 auto 15px !important;position: static;top: 17px;width: 150px !important;}
+.dashboard > a { font-size:11px !important; background-color:#555;}
+.cw-prof-cont.loan-types{ width:100%; margin-top:15px;}
+.loan-tab .tab-loans h4 {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+/*fund seeker profile  matches page css */
+
+/*start one form*/
+.cw-prof-cont.one-form {margin-top: 0;width: 100%; border-radius:0; overflow:visible; background-color:transparent;}
+.inner-menu > li{ width:100%;}
+.soring-table table {width: 700px;}
+.inner-menu{ position:fixed; top:0; border:none; padding-top:0; left:-100%; opacity:0;transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;-webkit-transition: all 0.4s ease-in-out; overflow-y:auto; overflow-x:hideen;}
+.inner-menu-open{ left:0; opacity:1;}
+.inner-content {padding: 0 20px;width: 100%;}
+.inner-form .res-title, .inner-menu > li {overflow: hidden;text-overflow: ellipsis;white-space: nowrap; }
+.inner-form > .res-title{ margin-left:-10px; width:calc(100% + 20px) !important;background-position:12px center !important; padding-left:55px !important;}
+/*end one form */
+
+/*profile matches */
+.cw-profile-match {margin-left:0;padding-left: 0 !important;width: 100%; margin-top:10px;}
+.profile-match .cw-profile-content {background-image: none;border-radius: 0;margin-left: 0;width: 49%; margin-right:2%;}
+.cw-profile-pad.cw-profile-content:nth-child(2n) {margin-right: 0;}
+.profile-match .cw-connect-right {margin-top: 0;}
+.profile-match .profile-pic { float: none;height: 95px;margin: 0 auto 12px;width: 95px;}
+.profile-match .profile-right {height: auto;width: 100%; float:left; background-color:transparent;}
+.profile-match .prof-ratings {margin-bottom: 10px;margin-top: 10px; text-align:center;}
+.profile-match .prof-ratings > li{ float:none; display:inline-block; margin-right:0;}
+.profile-match .profile-desc > h4 {font-size:16px; color:#4b4b4b;}
+.profile-match .profile-desc{ width:100%; text-align:center;}
+.profile-desc.cw-connect-desc.no-border-right { width: 100%;}
+.profile-match > h4{ width:100%; text-align:center;}
+.profile-match .cw-connect-right > h4 {margin-top: 0 !important;}
+#filtering .form-group {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;border: medium none;display: block !important;padding: 0;position: relative; top: 0; width: auto;}
+#filtering .form-group input {width: 100%;}
+#filtering .form-group > select {padding: 5px 40px 5px 10px;}
+.cw-connect-desc .km {display: table;float: none;margin: 8px auto 0;width: auto;}
+.profile-filter{ width:100%;}
+#filtering .form-group > select {background-position: 98% center;border-bottom: 0;border-radius: 0;border-right:1px solid #b6b7b9;}
+/************************************************************/
+
+/*invalid username and password */
+.cw-login {float: left;width: 100%; margin:20px auto;}
+.cw-invalid, .cw-otp {margin: 0 !important;}
+.cw-login .form-group-reg, .login-group {width: 100%;}
+.cw-login .social-login, .social-login{ text-align:center;}
+.cw-login .social-login > li, .social-login > li{ float:none; display:inline-block;}
+
+.form-title{ padding:15px;}
+.cw-login > form, .cw-otp-lock{ padding:25px 15px;}
+.cw-otp .cw-login {width: 100%;}
+
+.career-steps > li {padding-bottom: 10px;}
+.custom-upload .fake-file input{ width:64%;}
+
+.cw-contact-details {float: left;margin: 25px 0;width: 100%;}
+.cw-contact-details .cw-career-form {padding: 20px;width: 100%;}
+
+/*blog listing page */
+#portfoliolist .portfolio{ width:47%; margin-right:0;}
+#portfoliolist .portfolio:nth-child(3n){ margin-right:0;} 
+/*end blog listing page*/
+
+/*blog -details page */
+.cw-blog-detail {margin: 35px 0;}
+.cw-blog-detail .cw-profile-left{ padding:0; margin:0;}
+/*end blog-details page */
+
+/*career page css */
+#career-form .form-control select{ background-position:98% center;}
+/* career page css */
+
+/*team page */
+.team-list > li{width:48%; float:left;}
+.team-list > li:nth-child(2n){ margin-right:0 !important; float:right; margin-left:0 !important; }
+.team-list > li img{ width:100%;}
+/*end team page */
+
+/* start corporate-team page */
+.corporate-team-list > li {margin-bottom: 37px;margin-right: 23px;width: 47%;}
+.co-image{ height:38%;}
+/*end corporate-team page */
+
+/*tutorial-listing-page */
+.cw-tut-list > li{ width:47%;margin-bottom:6%;}
+.cw-tut-list > li:nth-child(2n) {margin-right: 0px; float:right;}
+.cw-tut-list > li:nth-child(2n + 1) {margin-right: 26px;}
+.cw-tut-list > li:nth-child(3n) {margin-right: 0;}
+.cw-tut-list > li:nth-child(4n) {margin-right: 0;}
+.cw-tut-lists > h5{ width:92%; font-size:14px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+/*end tutorial-listing-page */
+
+/* about us page */
+.tab-desc {width:100%;}
+.tab-img {display: table;float: left;margin: 0 auto;position: static;width: auto;}
+
+.cw-tab {padding: 25px 0 0;}
+.tab-show{ padding:25px 0 0;}
+.cw-applynow{ padding:33px 0;}
+.btn-apply {display: table; float: none;margin: 10px auto 0;padding: 12px 22px;}
+
+.about-us-img > h4{ font-size:22px; left:20px;}
+
+.cw-apply > span {float: left;font-size: 16px;line-height: normal;margin-bottom: 10px;text-align: center;width: 100%;}
+.cw-why > img {display: table; float: none;margin: 0 auto; width: auto;}
+
+i.tab-prof-name{ text-align:center;}
+/*end about us page*/
+
+/* send video req profile page */
+.need-fund-prof{ border:none; margin:0;}
+.profile-btn.need-fund-prof > span {color: #ffffff; font-size:14px;}
+.video-invi {float: left;margin-bottom: 5px !important;text-align: center;width: 100% !important; margin-top:0 !important;}
+.video-req{ margin-bottom:2px;}
+
+.layer-overlay .form-group {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;display: block !important; position: static !important;}
+.layer-overlay .form-group select{ padding: 8px 6px !important;}
+.provider-table-title .btn-anchors.btn-view-details{ top:4px; right:3px;}
+/*end send video req profile page */
+
+/*start fund seeker profile connect css */
+.cw-connect-right{ margin-top:0;}
+.cw-connect-right > h4{ margin-top:28px !important; display:block !important}
+.cw-profile-connect-btn{ width:100%;}
+.video-connect{ border-right:none; padding:0 !important;}
+.cancel-req > a {width: auto;}
+/*end fund seeker profile connect css */
+
+
+/*start calendar */
+.fc-toolbar{ position:relative;}
+.fc-toolbar .fc-left, .fc-toolbar .fc-right {display: table;float: none !important; margin: 0 auto 10px; width: auto;}
+
+.fc-toolbar .fc-left{ margin-top:40px;}
+.fc-toolbar .fc-center {display: inline-block;left: 0px;margin: 0 auto;position: absolute;top: 20px;width: auto; right:0}
+.cw-main-calendar{margin-left: 0px;  padding-left: 0px !important;width: 100%; margin-top:10px;}
+
+/* end calendar */
+
+/* concecpt page */
+.concept-listing { text-align:center;}
+.concept-listing > li, .concept-listing > li:nth-child(3n), .concept-listing > li:nth-child(4n) {display: inline-block !important;float: none !important; margin-right: 0 !important;width: 46%;}
+.concept-listing > li, .concept-listing > li:nth-child(4n) {margin-right:8%;}
+.concept-listing > li:nth-child(2n) {background-image: none !important;float: right;margin-right: 0 !important;padding-right: 0 !important;width: 37%; margin-left:10px;}
+.concept-listing > li:nth-child(3n) {background:url("../images/concept-dot.svg") no-repeat scroll right center;float: left; margin-right: 36px;padding: 50px 50px 8px 0;text-align: center;}
+
+/* Page Not found */
+.not-found-page {width: 440px;}
+.not-found h2{ text-align:center;}
+
+/*fund provider */
+.cw-provider-left .cw-gutter, .cw-provider-right .cw-gutter, .cw-provider-right .news-slider, .cw-provider-right .latest-btn, .cw-provider-right .cw-tracking{ padding:10px;}
+.cw-provider-left .profile-view-all {padding: 10px; border-radius:0;}
+.cw-provider-left, .cw-provider-right {width: 100%; margin:0 0 10px;}
+.cw-provider-left .cw-profile-pad.no-gutter {margin-left:0px;width: 100%; background-color:#fff; overflow:hidden;}
+.cw-provider-left .cw-profile-pad.cw-profile-content.no-gutter{margin-left: -10px;width: calc(100% + 20px); }
+
+.cw-provider-left .cw-custom-nav-profile {background-color: #ffffff;}
+.cw-provider-left .cw-connect-right .video-connect h4 {font-size: 14px !important;}
+.cw-provider-left .cw-custom-nav-profile .profileNavigation {right: 6px; top:14px;}
+.cw-provider-left .cw-custom-nav-profile { padding:10px;}
+
+.cw-provider-left .matches-find { margin-top: 0;}
+.cw-provider-left .provider-table-title{ padding:10px;}
+
+.cw-provider-left .profile-desc {width: 98%; margin-bottom:10px;}
+.cw-provider-left .profile-right {background-color: #ffffff;border-radius: 0;float: right;height: 125px;width: calc(100% - 125px); width: -webkit-calc(100% - 125px);}
+
+.cw-provider-left .profile-btn {margin: 13px 0 0;}
+
+.cw-provider-left .cw-profile-content{ border-radius:0;}
+
+.profile-remarks .form-group {background-color: rgba(0, 0, 0, 0);border: medium none;border-radius: 0;display: block !important;float: left;margin-top: 15px;padding: 0;position: relative;top: 0;width: 100%;}
+.profile-remarks .form-group input[type="text"] {background-color: #ffffff;border: 1px solid #ededed;margin: 0;padding: 13px 100px 13px 13px;}
+.profile-remarks .form-group input[type="submit"] {margin: 0;padding: 8px 24px;position: absolute;right: 4px;text-transform: uppercase;top: 5px;}
+
+/* start cw-provider details */
+.cw-provider-left .cw-provider-details .cw-desc > p{ margin:0;}
+.cw-provider-left .cw-provider-details .cw-custom-nav-profile {padding: 10px 0;}
+.cw-provider-left .cw-provider-details .cw-desc{ padding:0;}
+.cw-provider-left .cw-provider-details .cw-table-matches {padding: 12px 0;}
+.cw-provider-left .cw-attachments {padding: 0 15px 15px;}
+/*end cw-provider details */
+
+/*start fund-provider sent reqest */
+.cancel-video-req > span {margin:6px 0; font-size:12px;}
+.video-connect.cancel-req.cancel-video-req > img {margin-bottom: 0;margin-top: 0;}
+.cancel-video-req .btn-anchors {padding: 8px;width: auto;}
+.cancel-video-req > a{ width:100%; margin-top:0;}
+/*end fund-provider sent request */
+
+/*search filter page css */
+.search-forms .form-group, .self-search .form-group {background-color: rgba(0, 0, 0, 0) !important;display: block !important;position: static !important; width:100%;}
+.self-search  .tab-inner-title .form-group{ width:auto; padding-top:0; padding-bottom:0;}
+.search-forms .form-group > select#multiple-sel, .search-forms .form-group > select, .search-forms .form-group > input[type="text"]{ width:100%;}
+
+/*fund provider home pages */
+
+.cw-provider-home-center {width: 100% !important; margin-top:0px;}
+.cw-provider-home-center .cw-matches > li{width: 49%;}
+.cw-provider-home-center .cw-matches > li:nth-child(2n) {margin-left: 2%;}
+.profile-home-charts {display: table;float: none;margin-top: 0;padding: 22px 0;width: calc(100% - 125px);}
+.profile-home-charts .common-d3{ margin-bottom:0;}
+.profile-home-charts .common-d3 > span{ padding-right:25px;}
+
+.cw-profile-area.provider-profile-area {position: relative;}
+.provider-home-left {background-color: #f9f9f9;border-bottom: 1px solid #f0f0f0;float: left;margin-left: -10px;width: calc(100% + 20px); border-radius:0; margin-bottom:10px;}
+.cw-provider-home-left {background-color: #ffffff;border-radius: 0;height: 100%;left: -100%;margin-right: 0;overflow-y: auto;padding-top: 0;position: fixed;top: 0;width: 255px;z-index: 11;opacity:0;transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;-webkit-transition: all 0.4s ease-in-out; padding-bottom:20px;}
+.menu-res-prov{ left:0px; opacity:1;}
+
+.fp-profile .provider-home-left { background-color:transparent; border:none;}
+.fp-profile .cw-provider-home-res-left {background-color: rgba(255, 255, 255, 0.15);}
+.menu-provider::before {background-color: #ffffff;content: "";height: 2px;position: absolute;top: -5px;width: 14px;}
+.menu-provider::after {background-color: #ffffff;content: "";height: 2px;position: absolute;top: 5px; width: 14px;}
+.menu-provider {background-color: #ffffff; height: 2px;left: 10px;position: absolute;top: 19px; width: 14px;}
+.fp-profile .cw-provider-home-res-left > h4{ color:#fff; background-image:none;padding: 11px 15px 11px 38px; margin:0;}
+.fp-profile .cw-provider-home-center { margin-top: -51px;width: 100% !important;}
+.fp-profile .cw-provider-left .profile-view-all {border-radius: 0;padding: 50px 10px 10px;}
+.panel-open {background-color: #f0f0f0 !important;}
+.panel-open .menu-provider::before, .panel-open .menu-provider::after, .panel-open .menu-provider{ background-color:#686868 !important;}
+.panel-open .menu-provider{ left:15px;}
+.panel-open.cw-provider-home-res-left > h4{ color:#686868 !important; width:85%;}
+.fp-profile .profile-overflow{ overflow:visible;}
+
+.forms-edit .form-group {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;display: block !important;position: static;}
+.forms-edit .form-group > input {border-color: #e6e6e6;margin-right: 0;width: 100%; padding:5px 9px;}
+
+.customNavigation{ right:12px;}
+/*end fund provider home pages */
+
+/*start fund proposal accept */
+.proposal-listing .inner-application > span {width: auto; border-right: 1px solid #aeaeae;}
+.proposal-listing .inner-application > span + span {padding-left: 10px;}
+/* end fund proposal accept */
+
+/*start technology css */
+.cw-technologies{ margin:20px 0;}
+.cw-tech-img, .cw-tech-desc{ padding:20px;}
+/* end technology css  */
+}
+@media (max-width:600px) {
+.header-search {display: block;float: left;margin: 11px 0 0;width: 100%;}
+.header-search .form-group input[type="text"] {width: 100%; margin-top:0;}
+.header-search .form-group input[type="button"]{ top:0;}
+.login-common > li {width: 135px !important;}
+
+
+/*cw-provider */
+.cw-provider-left .cw-connect-desc {width: 100%;}
+.cw-provider-left .profile-pic {border: medium none;margin-right: 0;margin-top: 8px;}
+.cw-provider-left .profile-right {border: medium none;border-radius: 0;float: right; margin-top: 8px;width: calc(100% - 125px);}
+.cw-provider-left .cw-profile-connect-btn .notify-btn {padding: 5px 7px;width: auto;}
+
+/*fund-provider details */
+.cw-provider-details .cw-table-matches table{ width:680px;}
+.profile-home-charts{ margin-top:8px;}
+.cw-table-matches{ overflow-y:scroll; -webkit-overflow-scrolling: touch; -moz-overflow-scrolling: touch; -ms-overflow-scrolling: touch; -o-overflow-scrolling: touch;}
+
+/*fund provider home page */
+.profile-home-charts {display: block;loat: left;height: 125px;overflow-x: scroll;padding: 15px 5px;width: calc(100% - 125px) !important;}
+#outer > div#main {float: left;height: 100%;text-align: center; width: 100# !important;}
+.cw-prof-cont #outer > div#main { width:100% !important; margin-bottom:0;}
+.profile-home-charts .common-d3 {margin-bottom: 25px !important; width:25%; padding-right:0; float:left !important;}
+.profile-home-charts .common-d3 > span {padding-right: 0px; left:0;}
+/*end fund provider page */
+
+/*profile connection page */
+.sky-carousel {width: 46%;}
+
+/*start fund proposal accept */
+.proposal-listing .inner-application > span {width: 100%; border-right: none}
+.proposal-listing .inner-application > span + span {padding-left: 0;}
+/* end fund proposal accept */
+
+/*start technology css */
+.technlogy {display: block;float: left;width: 100%;}
+.cw-tech-img {display: table;float: none;margin: 0 auto;vertical-align: middle;width: auto;}
+.cw-tech-desc {border-top: 1px solid #eaeaea; display: table-cell;float: none;vertical-align: top; border-left:none;}
+.even .cw-tech-desc {border-top: 1px solid #eaeaea; border-right:0; width:100%;}
+.even .cw-tech-img { float:none; display:table;}
+.technlogy.even {position: relative;}
+.technlogy.even::before { display:none;}
+
+/*start contact us page */
+.conact-us-map{ display:none;}
+/* end contact us page */
+
+/* start loan calculator  */
+.main-calculator .tab-loan, .main-calculator .tab-rate, .main-calculator .tab-month {width: 64% !important;}
+/* end loan calculator */
+.inner-menu{ padding-top:0;}
+.photo-see{ margin-right:3%; margin-bottom:0; width:42%;}
+.photo-upload .custom-upload{ width:170px;}
+.photo-upload .btn-anchors {width: 80%;  text-align: center;  float: none;  margin: 0 auto;  display: table;}
+
+}
+
+@media (max-width:479px) {
+
+/*page-not-found */
+.not-found-page {width: 100% !important;}	
+.cw-from.cw-login-here > span{ display:none !important;}
+
+.cw-from > img {margin-right:0;}
+
+.cw-from {margin-right: 12px;}
+.cw-from.cw-login-here {margin-right: 24px;}
+.btn-login {margin-right: 0; padding:8px;}	
+	
+.cw-main-logo{ width:300px;}
+.apph4::before, .apph4::after{ background-size:300px 2px;}
+.apph4 h4{ font-size:18px;}
+.cw-land-main {float:left; height:calc(100vh - 133px) !important;width: 100%; margin:0 !important;}
+.cw-align img{ width:56%;}
+.cw-reg {margin: 10px 0;}
+
+.cw-content{height: auto; margin:95px 0 25px;}
+.cw-fs, .cw-fp, .cw-sp{ margin-bottom:40px;}
+.add {width: 100%;}
+.phoneno, .email {width: 100%; margin-left:0;}
+.footer-bottom > span {float: left;margin-bottom: 15px;text-align: center;width: 100%;}
+.footer-social-right {display: table;float: none;margin: 0 auto;width: auto;}
+
+/*reg page*/
+form {display: table;float: none;margin: 0 auto;}
+.social-login > li{ margin-left:0%; width:100%; }
+.cw-login .social-login > li {float:left; width:100% !important;}
+.cw-login .social-login > li a span{ width:40%; background-position:right center;}
+
+#reg-form .social-login > li{ width:100%;}
+#reg-form .login-linkedin, #reg-form .login-fb, #reg-form .login-gplus{ width:40% !important;}
+/*for menu css*/
+
+/*dashboard css */
+.cw-profile-setting{ padding-right:18px;}
+
+/*dashboard css*/
+
+.cw-profile-content{ width:calc(100% + 20px);}
+
+.profile-right{  width: calc(100% - 125px);}
+.cw-profile-pad.no-gutter {margin-left: 0;width: 100%;}
+
+.cw-matches-desc {float: right;width: calc(100% - 102px);}
+.cw-latest-news {width: 100%;}
+.cw-investors{ margin-bottom:11px;}
+.latest-img > img{ width:100%;}
+
+.cw-notifications {left: -152px;width: 305px;}
+.cw-notifications::before{right: 132px;}
+.cw-setting::before{ right:43px;}
+.cw-notification-popup > li{ padding:8px;}
+.rgt{ width:204px;}
+.notification-btn{ width:204px;}
+
+.loan-types .loan-menu > li{ float:none; display:inline-block;}
+.loan-menu{ text-align:center;}
+
+.loan-types .loan-menu > li > a{ padding:10px;}
+.loan-types .loan-menu > li{ margin-right:0;}
+.loan-tab .tab-loans > ul, #tab-listing .loan-tab .tab-loans > ul, #tab-listing-corporate .loan-tab .tab-loans > ul{ text-align:center;}
+.loan-tab .tab-loans li, #tab-listing .loan-tab .tab-loans li, #tab-listing-corporate .loan-tab .tab-loans li {display: inline-block;float: none;margin-right: 0;width: 235px;}
+
+.listing-show .tab-loans ul li{ text-align:left;}
+.listing-show .tab-loans ul li .btn-req{ margin-top:13px;}
+
+
+/********new changes in dashboard *******/
+.common-d3{ width:24%; margin-bottom:0px;}
+#jk2, #jk3{ margin-bottom:0;}
+.inner-update {display: table;float: none;margin: 0 auto;}
+.cw-matches-desc > span.km {float: right;}
+.inner-chart{ padding-bottom:15px;width:100%; overflow-x:auto;}
+.fp-distance {margin-top: 10px;position: static;width: 100%;}
+.cw-prof-cont #outer > div#main { width:500px !important; margin-bottom:0;}
+
+/*start fund seeker profile connect css */
+.cw-profile-connect-btn{ width:100% !important;}
+/*end fund seeker profile connect css */
+
+.notify-btn{width:60px;}
+
+.cw-fund-title > span {font-size: 15px;}
+.cw-fund-title {font-size: 20px;margin-top: 8px;}
+
+.profile-right > h4 {margin-top: 22px;}
+/*.cw-profile-left{ padding-left:10px;}*/
+.cw-profile-pad{ padding:10px;}
+
+.cw-matches > li{ margin-bottom:10px; width:100%; margin-right:0;}
+.cw-matches > li:nth-child(2n){ margin-left:0;}
+/*.customNavigation{ top:-33px;}*/
+.error{ width:95%; text-align:left;} 
+
+.cw-login .form-group-reg .other-opt > span{ font-size:12px;}
+
+/* fund seeker profile matches css*/
+.profile-match .cw-profile-content{ width:100%; margin-right:0;}
+/**********************/
+
+/*team page */
+.team-list > li{margin:0 0 20px 0 !important; width:48%;}
+.team-list > li img{ width:100%;}
+.team-title{ padding:5px 10px 10px;}
+.team-list p{ padding:8px 10px; line-height:20px;}
+/*end team page */
+
+/*blog listing page */
+#portfoliolist .portfolio{ width:100%; margin-right:0;}
+#portfoliolist .portfolio:nth-child(3n){ margin-right:0;} 
+/*end blog listing page*/
+
+/* start corporate-team page */
+.corporate-team-list > li {margin-bottom: 37px;margin-right: 0px;width: 100%;}
+.co-image{ height:60%;}
+.corporate-team-list > li:nth-child(3n) {margin-right: 0px;}
+/*end corporate-team page */
+
+/*start contact css */
+.btn-submit > input {padding: 9px !important;width: 100%;}
+/* end contact css */
+
+/*career page css */
+#career-form .form-control select{ background-position:96% center;}
+/* career page css */
+
+/*tutorial-listing-page */
+.cw-tut-list > li{ width:100%;}
+.cw-tut-list > li:nth-child(2n) {margin-right: 0px;}
+.cw-tut-list > li:nth-child(2n + 1) {margin-right: 0px;}
+.cw-tut-list > li:nth-child(3n) {margin-right: 0;}
+.cw-tut-list > li:nth-child(4n) {margin-right: 0;}
+
+.cw-tut-lists > h5{ width:92%; font-size:14px;}
+/*end tutorial-listing-page */
+
+/* start tutorial details lists page */
+.cw-tut-detail-list > li{ padding-left:70px;}
+.cw-tut-detail-list h5{ line-height:24px;}
+/*end tutorial details lists page */
+
+/*about us page */
+.tab-img {display: block;float: left;width: 100%;}
+
+.about-us-img > h4 {bottom: 8px;font-size: 14px;left: 10px;}
+.about-us-img h4 span{ font-size:11px;}
+.sub-title{ font-size:14px;}
+
+.tab-menu > li{ margin-right:12px; margin-bottom:15px;}
+
+.cw-who > img {margin-bottom: 0; margin-right: 0; width: 100%;}
+.cw-who-desc {float: left; margin-left: 0; margin-top: 30px;width: 100%;}
+.cw-why-listing > li {margin-bottom: 30px; margin-right: 0;width: 100%;}
+
+.cw-provider{ height:150px;}
+.cw-provider > h3{ font-size:20px;}
+.cw-provider > span{ font-size:14px;}
+/*end about us page */
+
+/*send video req profile page */
+.video-invi{ display:none;}
+.video-req{ margin-top:20px;}
+/*end send video req profile page */
+
+/* apply for listing page */
+.listing-show .tab-loans ul li .btn-req {float: none;}
+.inner-application {width: 100%;}
+
+.que-content {float: none;margin-left: 67px;width: auto;}
+.que-content > h4 {float: none !important; text-align:left !important;}
+.que-content > p {float: none;width: auto;}
+.tab-inner-title > h4{ text-align:center !important;}
+.tab-checkbox div label{ text-align:left;}
+
+#filtering .form-group > select {background-position: 98% center;border-bottom: 1px solid #b6b7b9;border-radius: 0;border-right:none;}
+select#fp-near-by-you {border-right: 1px solid #b6b7b9 !important;border-bottom:none !important;}
+/*one form page */
+.radio-btn label{ margin-bottom:8px;}
+.inner-input > li, .margin50 ul.nomargin li{ width:100%; margin-right:0;}
+.inner-input li .custom-upload .fake-file input{ margin-top:40px;}
+
+.tabel-top{ text-align:center;}
+.tabel-top > span, .tabel-top > a{ width:100%;}
+
+.sorting-right span {float: left;width: auto;}
+.sorting-right span a{ padding-left:0;}
+.sorting-right span a + a{ padding-left:10px; margin-right:10px;}
+.sorting-left > span{ border:none;}
+#import-submit input[type="submit"]{ margin:10px 0 0 0;}
+
+.sorting-right span a {float: left;padding-left: 0;}
+.sorting-right span a:last-child {padding: 0;}
+.sorting-right span span {margin-right: 10px;width: auto;}
+
+.contact-input > li {margin-right: 0;width: 100%;}
+.contact-input textarea{ margin-bottom:10px;}
+.contact-input li:last-child textarea{ margin-bottom:0;}
+
+/*.data-import > ul.import-btns {padding: 0 10px;}
+#import-submit select{ width:153px;}
+.data-import li { float: left;}*/
+/*loan calculator */
+.emi-result{ font-size:14px; padding:15px;}
+.final-results > li {border-bottom: 1px solid #ececec;border-right: medium none #000080;float: left;padding: 10px 0;text-align: left;width: 100%;}
+.final-results h5 {float: left;text-align: left;width: auto;}
+.loan_amt, .loan_rate, .loan_tenure {float: left;line-height: 33px;margin-left: 20px;text-align: center;width: auto;}
+
+/*profile tutorials */
+.profile-tutorials .cw-tut-list > li {margin-right: 0%;width: 100%; margin-bottom:4%;}
+.profile-tutorials .cw-tut-list > li:nth-child(2n){ margin-right:0;}
+.profile-tutorials .cw-tut-list > li:nth-child(2n + 1){ margin-right:0 !important;}
+.profile-tutorials .cw-tut-list > li:nth-child(4n){ margin-right:0;}
+.profile-tutorials .cw-tut-list > li:nth-child(3n){ margin-right:0;}
+
+/*start concept page css */
+.concept-listing{ margin-top:20px;}
+.concept-listing > li, .concept-listing > li:nth-child(3n), .concept-listing > li:nth-child(4n), .concept-listing > li:nth-child(2n) {background: rgba(0, 0, 0, 0) url("../images/concept-dot-down.svg") no-repeat scroll center bottom !important;float: none;  margin: 0 auto 5px !important;padding-bottom: 50px;padding-right: 0; padding-top: 0;width: 75%;}
+.concept-listing > li:last-child{ background:none !important;}
+/*end concept page css */
+
+/*financial listing page */
+.partner-listing .finance-partner-logo {width: 50%;}
+.finance-partner-logo:nth-child(2n) {border-right: 0 none;}
+.finance-partner-logo:nth-child(3n) {border-right: 1px solid #e5e5e5;}
+
+/* start popup css */
+.pop-up-overlay {top: 5%;width: 90%;}
+.layer-popup-content > h5{ margin-bottom:5px;}
+.layer-popup-content .loan-tab .tab-loans li {float: left;height: 183px;margin-bottom: 0;margin-right: 4%;width: 48%;}
+.layer-popup-content{ padding:20px;}
+/*end popup css */
+
+/*start incomming all activities page */
+.cw-all-notification .cw-notification-listing {position: relative;}
+.cw-all-notification .cw-notification-listing .noti-profile-pic {display: table;float: none;height: 65px;margin: 0 auto 10px;overflow: hidden;width: 65px;}
+.cw-all-notification .cw-notification-listing .noti-profile-pic > img {float: left;width: 100%;}
+.cw-all-notification .rgt {text-align: center;width: 100%; margin-left:0;}
+.cw-all-notification .notification-btn{ text-align:center;}
+.cw-all-notification .notification-btn li {float: none;}
+.cw-all-notification .noti-time {position: absolute;right: 0;top: 5px;}
+.cw-all-notification .rgt > p {float: left; margin-bottom: 0;margin-left: 0;text-align: center;width: 100%;}
+.cw-all-notification .rgt p span { float:none;}
+.cw-all-notification .margin-span {overflow: hidden; text-align: left;text-overflow: ellipsis;white-space: nowrap;width: 75% !important;}
+/*end incomming all activities page */
+
+/* start fund provider */
+.provider-title{overflow: hidden;  text-overflow: ellipsis;text-transform: capitalize;white-space: nowrap;width: 49%;}
+.cw-provider-left .provider-table-title > h4 { float: left;margin: 0 0 10px;width: 100%;}
+.cw-provider-left .btn-anchors.btn-view-details {position: static;}
+#outer > div#main{ width:350px !important;}
+.profile-home-charts .common-d3 {width:24%}
+.profile-home-charts .common-d3::after {left: 75px;width: 18%;}
+.radial{ margin-right:0;}
+/* end fund provider */
+
+/* start fund provider videoreq */
+.cancel-video-req > a {margin: 0;width: 100%;}
+.cancel-video-req > span {margin:3px 0; font-size:12px;}
+.video-connect.cancel-req.cancel-video-req > img {margin-bottom: 0;margin-top: 0;}
+.cancel-video-req .btn-anchors {display: table;float: none;margin: 0 auto;padding: 6px 8px;width: auto;}
+
+/*end fund provider videoreq */
+
+/*start fund provider */
+.self-search .tab-inner-title .form-group {margin-top: 5px;padding-bottom: 0;padding-left: 0;padding-top: 0;position: relative; width: 100%;}
+.self-search .form-group input[type="radio"] {margin: 0;opacity: 0;position: absolute;width: auto;}
+.cw-attachments .notify-btn {font-size: 12px;padding: 8px 12px;}
+
+
+/*fund provider video req*/
+.overlay-listing{ width:100%;}
+.form-group.date {margin-bottom: 10px;margin-right: 0;width: 100%;}
+.form-group.date > input{ background-position:97% center;}
+.form-group.hour,.form-group.min {width: 31%;}
+.form-group.am-pm {width: 33%;}
+.cancel-video-req .video-req{ margin-bottom:0px; }
+.sekeer-analysis .profile-filter {float: left;  width: 100%;}
+
+/*fund provider home pages */
+.cw-provider-home-center .cw-matches > li{width: 100%; margin-left:0;}
+.cw-provider-home-center .cw-matches > li:nth-child(2n) {margin-left: 0;}
+.sky-carousel .sc-content-wrapper {left: -25%;width: 150%;}
+.d3-graphs {margin-bottom: 0;}
+
+/*end fund provider home pages */
+
+/*start fund provider account details */
+.setting-editable > h5 {  width: 135px;}
+.setting-editable .forms-edit {float: left;margin-bottom: 6px;width: 100%;}
+.forms-edit .form-group > input {width: 100%;}
+.editable-btns {display: table;float: none;margin: 0 auto;width: auto;}
+
+.address .setting-editable select, .address .setting-editable .forms-edit {width: 100%;}
+.address .forms-edit .form-group > input {width: 100%;}
+.setting-editable > input#attribute {width: 168px !important;}
+/* end fund provider details account details */
+
+/*start fund seeker self search */
+.search-forms .form-group:last-child {padding-bottom: 5px;padding-top: 20px;}
+.search-forms .form-group > input[type="submit"] {width: 100%;}
+/* end fund seeker self search */
+
+/*start claendar css */
+.fc-basic-view .fc-body .fc-row {min-height: 2.02em !important;}
+/* end calendar css */
+
+/*start fund seeker analysis */
+.profile-filter form, #filtering .form-group, #filtering .form-group > select{ width:100%;}
+#filtering .form-group > select{ background-position:98% center;}
+/*end fund seeker analysis */
+
+/* start loan calculator */
+.main-calculator .tab-loan, .main-calculator .tab-rate, .main-calculator .tab-month {border-right: 0 none;padding-right: 0;width: 100% !important;}
+.main-calculator .tabs > li:last-child {margin-left: 0; width:auto; margin-top:15px;}
+.loan_amt, .loan_rate, .loan_tenure{ margin-left:0;}
+/* end loan calculator */
+}
+@media (max-width:360px) {
+.profile-right {width: calc(100% - 128px);}
+#filters li {float: left;margin-right: 20px;}
+#filters > li:last-child {margin-right: 0;}
+.team-list > li {width: 100%;}
+.cw-connect-right > h4 {margin-top: 30px !important;}
+.inner-chart{ padding:15px 5px 20px;width:100%; overflow-x:auto;}
+.common-d3 > span {text-align: center; left:0;}
+.cw-matches-desc > span.km {float: left;}
+
+
+/*start fund provider account details */
+.setting-editable > h5 {font-weight: bold;width: 100%;}
+/* end fund provider details account details */
+
+.setting-editable > input#attribute {width: 129px !important;}
+
+}
+
+/*media query for height */
+@media screen and (min-width:480px) and (max-width:500px) and (orientation:landscape){.cw-matches-desc .btn-req{ width:90px !important;}}
+@media screen and (min-width:480px) and (max-width:767px) and (orientation:landscape){ 
+html {min-height: 100%;position: relative;height:auto; z-index:-9}
+.apph4 h4{ font-size:18px;}
+.apph4::before, .apph4::after{ background-size:300px 2px;}
+.cw-content {float: left;height: auto;margin:95px 0 90px;width: 100%;}
+.footer-land {bottom: 20px;position: absolute;width: 100%;}
+
+.layer-overlay{ position:absolute;}
+.layer-overlay .pop-up-overlay{ top:3%; width:455px;}
+.cw-matches-desc .btn-req {font-size: 11px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: auto;}
+.layer-popup-content{ padding:37px;}
+}

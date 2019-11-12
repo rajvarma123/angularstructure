@@ -1,0 +1,306 @@
+
+   
+    <script type="text/javascript">
+      var token_val = '{{tok}}';
+      window.img_source = '';
+
+
+      function fileNameLen(name)
+      {
+        if(name.length > 15)
+        {
+            return name.substring(0, 15) + '...';    
+        }
+        else
+        {
+          return name;
+        }
+      }
+
+      function source_image(clicked_button) {
+        /*            document.getElementById('tb_button').style.visibility = 'hidden';
+          document.getElementById('no_tb_button').style.visibility = 'hidden';
+          document.getElementById('show_doctor_button').style.visibility = 'hidden';*/
+        document.getElementById('err-msg').innerHTML = '';
+        document.getElementById('sucess_msg').innerHTML = '';
+        var image_id = 'img_' + clicked_button;
+        $('#show_upload').attr('src', document.getElementById(image_id).src);
+        // console.log(document.getElementById(image_id).src);
+        img_source = clicked_button;
+        console.log(img_source);
+        document.getElementById('back_button').click();
+      }
+      function readURL(input) {
+
+        var filepath = input.value;
+        var m = filepath.match(/([^\/\\]+)$/);
+        var filename = m[1];
+        $('#file').html(fileNameLen(filename));
+
+        $('#show_upload').attr('src', '');
+        if (input.files && input.files[0]) {
+          var front_size = input.files[0].size / 1024 / 1024;
+                var front_type = input.files[0].type;
+                console.log("Front image size: "+front_size);
+                console.log("Front image type: "+front_type);
+
+                if (front_size < 2) {
+                    if((front_type=="image/jpg") || (front_type=="image/jpeg") || (front_type=="image/png")) {
+                        var reader = new FileReader();
+
+                        reader.onload = function(e) {
+                            $('#show_upload')
+                                .attr('src', e.target.result)
+                        };
+
+                        reader.readAsDataURL(input.files[0]);
+                    }
+                    else{
+                        document.getElementById("file").value = "";
+                        alert('Invalid Front Image type: Please use only JPG, JPEG or PNG')
+                        console.log("Invalid Front Image type: Please use only JPG, JPEG or PNG");
+                    }
+                }
+                else {
+                    document.getElementById("file-upload1").value = "";
+                    alert('Front Image size too big: Please keep file size within 2MB')
+                    console.log("Front Image size too big: Please keep file size within 2MB");
+                }
+
+
+          /*document.getElementById('tb_button').style.visibility = 'hidden';
+              document.getElementById('no_tb_button').style.visibility = 'hidden';
+              document.getElementById('show_doctor_button').style.visibility = 'hidden';*/
+          //  document.getElementById('err-msg').innerHTML = '';
+          //  document.getElementById('sucess_msg').innerHTML = '';
+          // var reader = new FileReader();
+
+          // reader.onload = function(e) {
+          //   $('#show_upload').attr('src', e.target.result);
+          // };
+          // const up_fileType = input.files[0]['type'];
+          // const up_file_size = input.files[0]['size'] / 1024 / 1024;
+          // console.log('file type : ');
+          // console.log(up_fileType);
+          // const up_validImageTypes = ['image/gif', 'image/jpeg', 'image/png'];
+
+          // reader.readAsDataURL(input.files[0]);
+          // img_source = 'uploaded';
+          // console.log(img_source);
+          return false;
+        }
+      }
+
+      function readURL_back(input) {
+
+        var filepath = input.value;
+        var m = filepath.match(/([^\/\\]+)$/);
+        var filename = m[1];
+        $('#file2').html(fileNameLen(filename));
+
+        $('#show_upload_back').attr('src', '');
+        if (input.files && input.files[0]) {
+          var back_size = input.files[0].size / 1024 / 1024;
+                var back_type = input.files[0].type;
+                console.log("Back image size: "+back_size);
+                console.log("Back image type: "+back_type);
+
+                if (back_size < 2) {
+                    if((back_type=="image/jpg") || (back_type=="image/jpeg") || (back_type=="image/png")) {
+                        var reader = new FileReader();
+
+                        reader.onload = function(e) {
+                            $('#show_upload_back')
+                                .attr('src', e.target.result)
+                        };
+                       
+                        reader.readAsDataURL(input.files[0]);
+                    }
+                    else {
+                        document.getElementById("file-upload2").value = "";
+                        alert('Invalid Back Image type: Please use only JPG, JPEG or PNG')
+                        console.log("Invalid Back Image type: Please use only JPG, JPEG or PNG");
+                    }
+                }
+                else {
+                    document.getElementById("file-upload2").value = "";
+                    alert('Back Image size too big: Please keep file size within 2MB')
+                    console.log("Back Image size too big: Please keep file size within 2MB");
+                }
+
+
+          // document.getElementById('output').innerHTML = '';
+          // document.getElementById('err-msg').innerHTML = '';
+          // document.getElementById('sucess_msg').innerHTML = '';
+          // var reader = new FileReader();
+
+          // reader.onload = function(e) {
+          //   $('#show_upload_back').attr('src', e.target.result);
+          // };
+          // const up_fileType = input.files[0]['type'];
+          // const up_file_size = input.files[0]['size'] / 1024 / 1024;
+          // console.log('file type : ');
+          // console.log(up_fileType);
+          // const up_validImageTypes = ['image/gif', 'image/jpeg', 'image/png'];
+
+          // reader.readAsDataURL(input.files[0]);
+          // img_source = 'uploaded';
+          // console.log(img_source);
+          return false;
+        }
+      }
+
+      function getRandom(length) {
+        return Math.floor(
+          Math.pow(10, length - 1) +
+            Math.random() * 9 * Math.pow(10, length - 1)
+        );
+      }
+
+      function handle_form_submit() {
+        if(document.getElementById("file-upload1").value === "") 
+        {
+          alert('please Upload Front Passport');
+          return false;
+        }
+        if(document.getElementById("file-upload2").value === ""){
+          alert('please Upload Back Passport');
+          return false;
+        }
+          var fileVal = document.getElementById('file').innerHTML;
+
+        if('Select your file' == fileVal || fileVal == '')
+        {
+          alert('Please select your Id.')
+          return false;
+        }
+        $('#buffer').show();
+        var id = getRandom(10);
+        console.log('form submitted');
+        console.log(id);
+        /*document.getElementById('tb_button').style.visibility = 'hidden';
+          document.getElementById('no_tb_button').style.visibility = 'hidden';
+          document.getElementById('show_doctor_button').style.visibility = 'hidden';*/
+        console.log(img_source);
+        var property = document.getElementById('file-upload1').files[0];
+        var property2 = document.getElementById('file-upload2').files[0];
+        var tempId = sessionStorage.getItem('aiId')
+        var form_data = new FormData();
+        form_data.append('img_file', property);
+        form_data.append('img_file_back', property2);
+        form_data.append('temp_id',tempId);
+
+        //  document.getElementById('diagnosis_button').style.visibility = 'hidden';
+        //  document.getElementById('sucess_msg').innerHTML =
+        //   'Processing Please wait.....';
+        $.ajax({
+          method: 'POST',
+          url: 'https://ocr.archerongroup.com/dat_ver',
+          data: form_data,
+          processData: false,
+          contentType: false,
+          success: function(response) {
+            console.log(response);
+            if(!response.status){
+              $('#buffer').hide();
+              alert('invalid passport');
+              return false;
+            }
+            if(response.data){  
+            $('#buffer').hide();
+            sessionStorage.setItem('aiId',response.data.temp_id)
+            sessionStorage.setItem('user', JSON.stringify(response.data));
+            window.location = 'upload-selfie.html';
+            }
+            else {
+        $('#buffer').hide();
+        alert('Network Error');
+      }
+            // if (response.status == true) {
+            //     var i;
+            //     var n = Object.keys(response.data).length;
+            //     for (i = 0; i < n; i++)
+            //     {
+            //         document.getElementById('err-msg').innerHTML = response.data[i];
+            //     }
+            // } else {
+            //     document.getElementById('err-msg').innerHTML = response.data;
+
+            // }
+          }
+        });
+        return false;
+      }
+    </script>
+
+    <!--js-->
+  <body class="homeBg">
+    <ul class="wrapper">
+      <!--signup box-->
+
+      <div class="signupContainer">
+        <a href="index.html" class="closeBtn">X</a>
+        <form id="">
+          <div class="headerline1">Let us get to know you faster</div>
+
+          <div class="passportUpload" >
+            <h1 class="headerline2 headerline-passport">
+              Upload a picture of your Active Passport
+            </h1>
+
+            <!--  <span id="filename">Select your file</span>
+                   <label for="file-upload">Browse<input type="file" id="file-upload"></label>-->
+            <ul class="common-flex-table upload-passport " >
+            
+              <li class="headerline3 passport-frontpage">Front page :</li>
+              <li><span id="file" class="commonSignupClass">Select your file</span></li>
+              <li><label for="file-upload1" class="primeryBtn ">Browse<input type="file" id="file-upload1" value="" onchange="readURL(this);" ></label>
+              </li>
+              <li>&nbsp;</li>
+
+              <li>   
+                <div class="xray-box xray-box_2" >
+                  <img src="" id="show_upload" class="x-ray-file" name="" width="50"
+                    height="50" />
+                </div>
+              </li>
+            </ul>
+            <ul class="common-flex-table upload-passport" style="">
+                <li class="headerline3">Back page :</li>
+              <li><span id="file2" class="commonSignupClass">Select your file</span></li>
+              <li><label for="file-upload2" class="primeryBtn ">Browse<input type="file" id="file-upload2" value="" onchange="readURL_back(this);" ></label>
+              </li>
+              <li>&nbsp;</li>
+                
+              <li>
+                <div class="xray-box_back">
+                  <img src="" id="show_upload_back" class="x-ray-file_back" name=""
+                    width="50" height="50" />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </form>
+
+        <div class="signupfooter">
+          <a href="signup.html"
+            ><button class="primeryBtn left backbtn" id="">Back</button></a
+          >
+          <span id="diagnosis_button" class="dignobtn"
+            ><button onclick="handle_form_submit();" class="primeryBtn right">
+              Continue
+            </button></span
+          >
+        </div>
+      </div>
+
+      <!--signup  box-->
+    <div id="buffer" class="bufferscreen">
+      <div id="spinner" class="lds-ring">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!--end wrapper-->

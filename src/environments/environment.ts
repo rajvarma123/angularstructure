@@ -3,7 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  api: {
+    baseProject: 'http://10.14.31.169:9000/user/',
+    endPoints: {
+      registerAccount: 'register',
+      otpGeneration: 'otp'
+    }
+  }
 };
 
 /*
